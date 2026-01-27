@@ -29,13 +29,14 @@ npm create uniweb@latest my-site -- --template marketing
 
 ### Available templates
 
-| Template    | Description                          |
-| ----------- | ------------------------------------ |
-| `single`    | Single-page site (default, built-in) |
-| `multi`     | Multi-page site (built-in)           |
-| `marketing` | Marketing site with blog             |
-| `academic`  | Academic/research site               |
-| `docs`      | Documentation site                   |
+| Template        | Description                          |
+| --------------- | ------------------------------------ |
+| `single`        | Single-page site (default, built-in) |
+| `multi`         | Multi-page site (built-in)           |
+| `marketing`     | Marketing site with blog             |
+| `academic`      | Academic/research site               |
+| `docs`          | Documentation site                   |
+| `international` | Multilingual site (en, es, fr)       |
 
 ## Next steps
 
