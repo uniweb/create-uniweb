@@ -1,0 +1,18 @@
+{
+  "name": "create-uniweb",
+  "version": "0.1.0",
+  "description": "Create Uniweb projects",
+  "type": "module",
+  "bin": "./index.js",
+  "files": ["index.js"],
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uniweb/create-uniweb.git"
+  },
+  "keywords": ["uniweb", "create", "scaffold", "vite", "react"],
+  "author": "Uniweb",
+  "license": "MIT"
+}
