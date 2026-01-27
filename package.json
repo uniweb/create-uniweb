@@ -4,7 +4,9 @@
   "description": "Create Uniweb projects",
   "type": "module",
   "bin": "./index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "engines": {
     "node": ">=20.19.0"
   },
@@ -12,7 +14,13 @@
     "type": "git",
     "url": "git+https://github.com/uniweb/create-uniweb.git"
   },
-  "keywords": ["uniweb", "create", "scaffold", "vite", "react"],
+  "keywords": [
+    "uniweb",
+    "create",
+    "scaffold",
+    "vite",
+    "react"
+  ],
   "author": "Uniweb",
-  "license": "MIT"
+  "license": "Apache-2.0"
 }
