@@ -55,7 +55,7 @@ See the [developer guide](https://github.com/uniweb/cli/tree/main/docs) for:
 
 ## What this package does
 
-This is a thin wrapper that delegates to `npx uniweb@latest create`. It exists to support the familiar `npm create` convention used by Vite, Next.js, and other modern tools.
+This is a thin wrapper that delegates to `uniweb create` (via `npx uniweb@latest`). It exists to support the familiar `npm create` convention used by Vite, Next.js, and other modern tools.
 
 ## License
 
