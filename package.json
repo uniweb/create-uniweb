@@ -1,6 +1,6 @@
 {
   "name": "create-uniweb",
-  "version": "0.1.1",
+  "version": "1.0.1",
   "description": "Create Uniweb projects",
   "type": "module",
   "bin": "./index.js",
