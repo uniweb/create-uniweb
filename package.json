@@ -4,6 +4,9 @@
   "description": "Create Uniweb projects",
   "type": "module",
   "bin": "./index.js",
+  "scripts": {
+    "test": "node --test"
+  },
   "files": [
     "index.js"
   ],
