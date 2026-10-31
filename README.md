@@ -23,20 +23,16 @@ bun create uniweb my-site
 ```bash
 pnpm create uniweb my-site --template marketing
 
-# npm requires -- to pass arguments
+# npm wants -- before a flag for the command it runs
 npm create uniweb@latest my-site -- --template marketing
 ```
 
-### Available templates
+The default template is `starter`. `npx uniweb@latest template list` shows the others.
 
-| Template        | Description                          |
-| --------------- | ------------------------------------ |
-| `single`        | Single-page site (default, built-in) |
-| `multi`         | Multi-page site (built-in)           |
-| `marketing`     | Marketing site with blog             |
-| `academic`      | Academic/research site               |
-| `docs`          | Documentation site                   |
-| `international` | Multilingual site (en, es, fr)       |
+### With an AI agent
+
+Ask it to run `npx uniweb@latest start` first, or `npx uniweb@latest start --template docs`
+to start from a template. It prints a guide written for the agent.
 
 ## Next steps
 
@@ -48,10 +44,11 @@ pnpm install
 pnpm dev
 ```
 
-See the [developer guide](https://github.com/uniweb/cli/tree/main/docs) for:
-- [Content structure](https://github.com/uniweb/cli/blob/main/docs/content-structure.md) — how markdown becomes component props
-- [Component metadata](https://github.com/uniweb/cli/blob/main/docs/component-metadata.md) — defining component interfaces
-- [Site configuration](https://github.com/uniweb/cli/blob/main/docs/site-configuration.md) — site.yml reference
+`AGENTS.md`, in your new project, is its manual, for you and for AI agents. See the
+[documentation](https://uniweb.io/docs) for everything else, including:
+- [Content structure](https://uniweb.io/docs/reference/content-structure) — how markdown becomes component props
+- [Component metadata](https://uniweb.io/docs/reference/component-metadata) — defining component interfaces
+- [Site configuration](https://uniweb.io/docs/reference/site-configuration) — site.yml reference
 
 ## What this package does
 
